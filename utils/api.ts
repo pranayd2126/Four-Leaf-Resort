@@ -1,7 +1,8 @@
+
 import { AuthResponse, Room, Banquet, Booking, Review } from '../types';
 import { ROOMS, BANQUETS, MOCK_BOOKINGS, MOCK_REVIEWS, MOCK_USER, MOCK_ADMIN } from '../constants';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://four-leaf-resort.onrender.com/api';
 
 const getToken = () => {
   const user = localStorage.getItem('vp_user');
